@@ -25,7 +25,6 @@ sess = tf.Session()
 result = sess.run(product)
 
 print(result)
-
 sess.close()
 
 # TensorFlow 将图形定义转换成分布式执行的操作, 以充分利用可用的计算资源(如 CPU 或 GPU).
